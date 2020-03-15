@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chuyển đơn vị đo chiều dài</title>
+</head>
+<body>
+<strong id="result">Kết quả: </strong>
+<script>
+    let x = parseFloat(prompt("Nhập độ dài (m): "));
+    let f = x*3.2808;
+    document.getElementById('result').innerHTML += f.toFixed(3) + " ft";
+</script>
+</body>
+</html>
